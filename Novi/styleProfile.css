@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(270deg, #c11e38 0%, #220b34 100%);
+  overflow-x: hidden;
+  padding-top: 90px;
+  font-family: 'poppins', 'sans-serif';
+  margin: 0 100px;
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  /* position: relative; */
+}
+
+.profilecard {
+  background-image: url('oriental-tiles.png');
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  left: 80px;
+}
+
+.margincard {
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 5cm;
+}
+
+.textcard {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.valuecard {
+  padding-left: 10px;
+}
+
+.buttoncard {
+  display: inline-block;
+  /* position: ; */
+}
+
+.butt {
+  margin-top: 200px;
+  border: aliceblue 1px;
+  color: white;
+}
